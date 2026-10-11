@@ -28,6 +28,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: app-release-files
-        path: |
-          app/build/outputs/bundle/release/*.aab
-          app/build/outputs/apk/release/*.apk
+        path:
