@@ -25,7 +25,7 @@ jobs:
         ./gradlew bundleRelease --stacktrace || ./gradlew assembleRelease
 
     - name: Upload AAB Artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-@v4
       with:
         name: app-release-files
         path: |
